@@ -1,0 +1,240 @@
+body{
+    background-color: white;
+    scroll-behavior: smooth;
+}
+/*chargement de la fonte*/
+
+@font-face {
+    font-family: "police_base";
+    src: url("/fonts/American\ Captain.otf");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "police_second";
+    src: url("/fonts/American\ Captain.otf");
+}
+
+@font-face {
+    font-family: "paratexte";
+    src: url("/fonts/text_3.ttf");
+}
+@font-face {
+    font-family: "link_police";
+    src: url(/fonts/Hey\ Comic.ttf);
+}
+
+
+/*zone de la barre de navigation*/
+#link_nav:hover{
+color:rgb(45, 132, 219);
+border-bottom: 2px solid rgb(14, 13, 13);
+text-transform: uppercase;
+transform: translateY(-10px);
+font-family: "link_police";
+}
+#link_nav{
+    color: rgb(45, 132, 219);
+    font-family: "link_police";
+}
+
+#link_sup li a{
+    color: white;
+    font-family: "arial";
+}
+
+#link_sup li a:hover{
+    color: black;
+}
+
+
+/* zone de l"ecran principal*/
+#ecran_principal{
+    height: 80vh;
+    background: url("/asset/cover1.jpg");
+    background-size: cover;
+}
+
+h1{
+    text-transform: uppercase;
+    padding-top: 330px;
+    color: white;
+    text-shadow: 0px 2px 3px black;
+    font-size: 3em;
+    font-family: "police_base";
+}
+
+h2{
+    text-transform: uppercase;
+    color: rgb(20, 20, 20);
+    
+    font-size: 1.7em;
+    font-family: "link_police";
+}
+h3{
+    text-transform: uppercase;
+    color: rgb(19, 18, 18);
+    
+    font-size: 1.5em;
+    font-family: "link_police";
+}
+h5{
+    text-transform: uppercase;
+    color: rgb(243, 7, 7);
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+h4{
+    font-family: "link_police";
+}
+
+h6{
+    text-transform: uppercase;
+    padding-bottom: 20px;
+    text-align: center;
+    color: rgb(17, 16, 16);
+    
+    font-size: 1.2em;
+    font-family: "link_police";
+}
+#txt_sous_titre{
+    text-transform: uppercase;
+    padding-bottom: 280px;
+    color: red;
+    font-size: 1.3em;
+    
+    font-family: "police_second";
+}
+
+/*taille des photos client*/
+#client_pic{
+    height: 230px;
+    border-radius: 100%;
+    box-shadow: blue 10px 2px 1px 3px;
+    margin-bottom: 8px;
+}
+
+/**/
+#reseau_link{
+    background-color: brown;
+}
+
+#reseau_link ul{
+    display: flex;
+}
+
+#reseau_link ul li{
+    margin-left: 25px;
+    list-style: none;
+}
+
+#reseau_link ul li a{
+    color: white;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+#navbar{
+background-color:white;
+}
+
+#nav-bar{
+    background-color:white;
+    }
+
+
+/**/
+#logo{
+    width: 130px;
+}
+
+/*service zone*/
+#nos_services{
+    background: white;
+}
+
+p{
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.card:hover{
+    transform: translateY(10px);
+}
+
+span{
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    font-size: 1em;
+    color: brown;
+    text-transform: uppercase;
+    
+}
+
+.img_carousel{
+    border-radius: 2%;
+}
+
+img{
+    border-radius: 2%;
+}
+
+#btn_envoyer:hover{
+    background: rgba(103, 212, 103, 0.945);
+    text-transform: uppercase;
+}
+
+#contact_foot{
+    display: flex;
+    color: white;
+}
+
+#contact_foot li{
+    list-style: none;
+    text-decoration: none;
+    text-align: center;
+}
+
+#contact_foot li a{
+    text-decoration: none;
+    color: white;
+    margin-left: 10px;
+}
+
+iframe{
+   border-radius: 3%;
+}
+
+.img_icon{
+    width: 30px;
+}
+
+#contact ul{
+    display: flex;
+    list-style: none;
+}
+
+#contact ul li{
+    margin-left: 15px;
+    text-decoration: none;
+}
+
+#contact ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+#contact ul li a img{
+    width: 50px;
+}
+
+#footer{
+    background-color:rgb(45, 132, 219);
+}
+
+.txt_foot{
+    color: black;
+}
