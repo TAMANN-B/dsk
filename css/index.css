@@ -52,7 +52,7 @@ font-family: "link_police";
 /* zone de l"ecran principal*/
 #ecran_principal{
     height: 80vh;
-    background: url("/asset/cover.jpg");
+    background: url("/asset/cover1.jpg");
     background-size: cover;
 }
 
